@@ -6,3 +6,5 @@ ido.last
 /transient/
 /elpa/
 /tramp
+/server/
+projectile.cache

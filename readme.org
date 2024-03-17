@@ -1,4 +1,4 @@
-* Emacs.d for generic purpose
+* Emacs.d for Window OS
 
 * Package List
 - dracula
