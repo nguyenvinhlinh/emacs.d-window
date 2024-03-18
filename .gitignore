@@ -8,3 +8,4 @@ ido.last
 /tramp
 /server/
 projectile.cache
+/config/secret.el

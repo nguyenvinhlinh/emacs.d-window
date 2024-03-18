@@ -1,4 +1,5 @@
 (add-to-list 'load-path "~/.emacs.d/config/")
+(add-to-list 'load-path "~/.emacs.d/lib/")
 
 (package-initialize)
 (require 'package)
@@ -7,6 +8,7 @@
 (require 'theme)
 (require 'global-config)
 (require 'key-binding)
+(require 'secret)
 
 ;; Fix tramp bug for not autoload function.
 ;; Credit to: https://www.reddit.com/r/emacs/comments/l2lw7o/comment/grxh2k5/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button

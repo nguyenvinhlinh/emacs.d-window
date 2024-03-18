@@ -44,6 +44,16 @@
 ;; Set default directory when find-file C-x C-f to home
 (setq default-directory "C:/Users/nguye")
 
+;; Adding simple-secrets
+(require 'simple-secrets)
+(defun active-password-manager ()
+  "active a simple-secert mode"
+  (interactive)
+  (secret-load-keys))
+
+;; YAML mode
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml\\'" . yaml-mode))
 
 
 (provide 'global-config)
