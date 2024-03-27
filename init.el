@@ -9,6 +9,7 @@
 (require 'global-config)
 (require 'key-binding)
 (require 'elixir-config)
+(require 'csgo-navigation-mode)
 (require 'secret)
 
 
