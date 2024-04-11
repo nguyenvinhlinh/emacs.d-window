@@ -36,4 +36,4 @@
 
 
 (global-set-key (kbd "C-c c") 'csgo-navigation-mode)
-(provide 'csgo-navigation-mode)
+(provide 'linh-csgo-mode)

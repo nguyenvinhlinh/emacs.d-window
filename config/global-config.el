@@ -62,4 +62,8 @@
 (require 'yasnippet)
 (yas-global-mode 1)
 
+;; Golden ratio
+(require 'golden-ratio)
+(golden-ratio-mode 1)
+
 (provide 'global-config)

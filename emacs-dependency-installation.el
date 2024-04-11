@@ -5,7 +5,8 @@
 
 (setq package_list
       (quote (dracula-theme projectile magit ido-vertical-mode smex all-the-icons
-                            all-the-icons-dired neotree smartparens sudo-edit yaml-mode)
+                            all-the-icons-dired neotree smartparens sudo-edit yaml-mode
+                            markdown-mode golden-ratio)
              )
       )
 

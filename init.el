@@ -9,7 +9,7 @@
 (require 'global-config)
 (require 'key-binding)
 (require 'elixir-config)
-(require 'csgo-navigation-mode)
+(require 'linh-csgo-mode)
 (require 'secret)
 
 
@@ -23,7 +23,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(web-mode polymode yasnippet-snippets yasnippet eglot company elixir-mode yaml-mode sudo-edit smex smartparens projectile neotree magit ido-vertical-mode dracula-theme all-the-icons-dired)))
+   '(golden-ratio markdown-mode powershell web-mode polymode yasnippet-snippets yasnippet eglot company elixir-mode yaml-mode sudo-edit smex smartparens projectile neotree magit ido-vertical-mode dracula-theme all-the-icons-dired)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
